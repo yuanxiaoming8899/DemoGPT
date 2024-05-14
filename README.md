@@ -1,242 +1,306 @@
-# ![favicon](assets/puzzle.png) DemoGPT: Autonomous AI Agent for Effortless App Creation 🚀
-
-<p align="center">
-<a href=""><img src="assets/banner_small.png" alt="DemoGPT logo: Generate automatic LangChain pipelines" width="450px"></a>
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><a target="_blank" rel="noopener noreferrer" href="/melih-unsal/DemoGPT/blob/main/assets/puzzle.png"><img src="/melih-unsal/DemoGPT/raw/main/assets/puzzle.png" alt="图标" style="max-width: 100%;"></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">DemoGPT：用于轻松创建应用程序的自主 AI 代理🚀</font></font></h1><a id="user-content--demogpt-autonomous-ai-agent-for-effortless-app-creation-" class="anchor" aria-label="永久链接：DemoGPT：用于轻松创建应用程序的自主 AI 代理🚀" href="#-demogpt-autonomous-ai-agent-for-effortless-app-creation-"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p align="center" dir="auto">
+<a href="/melih-unsal/DemoGPT/blob/main"><img src="/melih-unsal/DemoGPT/raw/main/assets/banner_small.png" alt="DemoGPT徽标：生成自动LangChain管道" width="450px" style="max-width: 100%;"></a>
 </p>
-
-<p align="center">
-<b>⚡ With just a prompt, you can create interactive Streamlit apps via 🦜️🔗 LangChain's transformative capabilities.⚡</b>
+<p align="center" dir="auto">
+<b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">⚡ 只需一个提示，您就可以通过🦜️🔗 LangChain 的变革能力创建交互式 Streamlit 应用程序。⚡</font></font></b>
 </p>
-<p align="center">
-<a href="https://pepy.tech/project/demogpt"><img src="https://static.pepy.tech/badge/demogpt" alt="Downloads"></a>
-<a href="https://github.com/melih-unsal/DemoGPT/releases"><img src="https://img.shields.io/github/release/melih-unsal/DemoGPT" alt="Releases"></a>
-<a href="https://demogpt.io"><img src="https://img.shields.io/badge/Official%20Website-demogpt.io-blue?style=flat&logo=world&logoColor=white" alt="Official Website"></a>
-<a href="https://docs.demogpt.io"><img src="https://img.shields.io/badge/Documentation-📘-blueviolet" alt="DemoGPT Documentation"></a>
+<p align="center" dir="auto">
+<a href="https://pepy.tech/project/demogpt" rel="nofollow"><img src="https://camo.githubusercontent.com/95c42fde5e2d37df864fadb1517a90c8115a5a20f4d29975fccf7d25cca12f2b/68747470733a2f2f7374617469632e706570792e746563682f62616467652f64656d6f677074" alt="下载" data-canonical-src="https://static.pepy.tech/badge/demogpt" style="max-width: 100%;"></a>
+<a href="https://github.com/melih-unsal/DemoGPT/releases"><img src="https://camo.githubusercontent.com/e25c4df8b7893dbe966b1dc70e65c94e37d2a7c41a3531494ba5b4666d2198fa/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f72656c656173652f6d656c69682d756e73616c2f44656d6f475054" alt="发布" data-canonical-src="https://img.shields.io/github/release/melih-unsal/DemoGPT" style="max-width: 100%;"></a>
+<a href="https://demogpt.io" rel="nofollow"><img src="https://camo.githubusercontent.com/04e7e3d630eccfbb8857e5c374bbeecf189cd8c447ece7ef44d6bf9ae5c9b260/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4f6666696369616c253230576562736974652d64656d6f6770742e696f2d626c75653f7374796c653d666c6174266c6f676f3d776f726c64266c6f676f436f6c6f723d7768697465" alt="官方网站" data-canonical-src="https://img.shields.io/badge/Official%20Website-demogpt.io-blue?style=flat&amp;logo=world&amp;logoColor=white" style="max-width: 100%;"></a>
+<a href="https://docs.demogpt.io" rel="nofollow"><img src="https://camo.githubusercontent.com/c5a3b18d38a65ca0e3186f64c6b171526ab3112c04ac32c271d3d82ad018b495/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f446f63756d656e746174696f6e2df09f93982d626c756576696f6c6574" alt="演示GPT 文档" data-canonical-src="https://img.shields.io/badge/Documentation-📘-blueviolet" style="max-width: 100%;"></a>
 </p>
-
-<p align="center">
-<a href="docs/README_CN.md"><img src="https://img.shields.io/badge/文档-中文版-blue.svg" alt="CN doc"></a>
-<a href="README.md"><img src="https://img.shields.io/badge/document-English-blue.svg" alt="EN doc"></a>
-<a href="docs/ROADMAP_CN.md"><img src="https://img.shields.io/badge/ROADMAP-路线图-blue" alt="roadmap"></a>
-<a href="docs/ROADMAP.md"><img src="https://img.shields.io/badge/ROADMAP-english-red" alt="roadmap"></a>
-<a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
+<p align="center" dir="auto">
+<a href="/melih-unsal/DemoGPT/blob/main/docs/README_CN.md"><img src="https://camo.githubusercontent.com/65001f5861138111b7707e627a1ac0b4ad04c4657463c6da89713f81ed2b7b8b/68747470733a2f2f696d672e736869656c64732e696f2f62616467652fe69687e6a1a32de4b8ade69687e789882d626c75652e737667" alt="中文文档" data-canonical-src="https://img.shields.io/badge/文档-中文版-blue.svg" style="max-width: 100%;"></a>
+<a href="/melih-unsal/DemoGPT/blob/main/README.md"><img src="https://camo.githubusercontent.com/5cbf374fa3b190b4f3e189de5dc55033bfdaac3de69bb1d63de8b9d899bd58ea/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f646f63756d656e742d456e676c6973682d626c75652e737667" alt="中文文档" data-canonical-src="https://img.shields.io/badge/document-English-blue.svg" style="max-width: 100%;"></a>
+<a href="/melih-unsal/DemoGPT/blob/main/docs/ROADMAP_CN.md"><img src="https://camo.githubusercontent.com/8bc202c9f6879a3ba0df1c1617ff559010ac137ea75a81e2dbc976bd9b999e1d/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f524f41444d41502de8b7afe7babfe59bbe2d626c7565" alt="路线图" data-canonical-src="https://img.shields.io/badge/ROADMAP-路线图-blue" style="max-width: 100%;"></a>
+<a href="/melih-unsal/DemoGPT/blob/main/docs/ROADMAP.md"><img src="https://camo.githubusercontent.com/f0222ebb4d3033ed3ffd9007e0bae536a57e6a85d7c459860dbea89427a9f827/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f524f41444d41502d656e676c6973682d726564" alt="路线图" data-canonical-src="https://img.shields.io/badge/ROADMAP-english-red" style="max-width: 100%;"></a>
+<a href="https://opensource.org/licenses/MIT" rel="nofollow"><img src="https://camo.githubusercontent.com/a4426cbe5c21edb002526331c7a8fbfa089e84a550567b02a0d829a98b136ad0/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d4d49542d79656c6c6f772e737667" alt="许可证：麻省理工学院" data-canonical-src="https://img.shields.io/badge/License-MIT-yellow.svg" style="max-width: 100%;"></a>
 </p>
-
-<p align="center">
-<a href="https://github.com/melih-unsal/DemoGPT/issues?q=is%3Aopen+is%3Aissue"><img src="https://img.shields.io/github/issues/melih-unsal/DemoGPT.svg?maxAge=2592000000000000" alt="Open an issue"></a>
-<a href="https://github.com/melih-unsal/DemoGPT/issues?q=is%3Aissue+is%3Aclosed"><img src="https://img.shields.io/github/issues-closed-raw/melih-unsal/DemoGPT.svg?maxAge=25920000000000000000" alt="Closed issues"></a>
-<a href="https://star-history.com/#melih-unsal/DemoGPT"><img src="https://img.shields.io/github/stars/melih-unsal/DemoGPT?style=social" alt="DemoGPT  Stars"></a>
-<a href=""><img src="https://img.shields.io/github/forks/melih-unsal/DemoGPT" /> </a>
+<p align="center" dir="auto">
+<a href="https://github.com/melih-unsal/DemoGPT/issues?q=is%3Aopen+is%3Aissue"><img src="https://camo.githubusercontent.com/b32958cf0d59cb6891191eef595c8d5335af95e26b2904a62b7ecb2ee50a74fd/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6973737565732f6d656c69682d756e73616c2f44656d6f4750542e7376673f6d61784167653d32353932303030303030303030303030" alt="打开一个问题" data-canonical-src="https://img.shields.io/github/issues/melih-unsal/DemoGPT.svg?maxAge=2592000000000000" style="max-width: 100%;"></a>
+<a href="https://github.com/melih-unsal/DemoGPT/issues?q=is%3Aissue+is%3Aclosed"><img src="https://camo.githubusercontent.com/2a532ae913e1f0ed0b8eb6c686cd2c044f291932a5c1dd1a904b45cffae84de4/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6973737565732d636c6f7365642d7261772f6d656c69682d756e73616c2f44656d6f4750542e7376673f6d61784167653d3235393230303030303030303030303030303030" alt="已关闭的问题" data-canonical-src="https://img.shields.io/github/issues-closed-raw/melih-unsal/DemoGPT.svg?maxAge=25920000000000000000" style="max-width: 100%;"></a>
+<a href="https://star-history.com/#melih-unsal/DemoGPT" rel="nofollow"><img src="https://camo.githubusercontent.com/c16c9cdbb32d2c43646ab30a2a7cc7c1b48aeab9c8de65ce41c386078b296e71/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f6d656c69682d756e73616c2f44656d6f4750543f7374796c653d736f6369616c" alt="演示GPT 明星" data-canonical-src="https://img.shields.io/github/stars/melih-unsal/DemoGPT?style=social" style="max-width: 100%;"></a>
+<a href="/melih-unsal/DemoGPT/blob/main"><img src="https://camo.githubusercontent.com/31e7ab2a68ad4aa33febb02e4928aa70f2b16a1957ca4b639c67cb006ec8dfa6/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f726b732f6d656c69682d756e73616c2f44656d6f475054" data-canonical-src="https://img.shields.io/github/forks/melih-unsal/DemoGPT" style="max-width: 100%;"> </a>
 </p>
-
-<p align="center">
-<a href="https://twitter.com/demo_gpt"><img src="https://img.shields.io/twitter/follow/demo_gpt?style=social" alt="Twitter Follow"></a>
-<a href="https://demogpt.medium.com/"><img src="https://img.shields.io/static/v1?style=for-the-badge&message=Medium&color=000000&logo=Medium&logoColor=FFFFFF&label=" alt="DemoGPT Medium" height="20"/></a>
-<a href="https://www.producthunt.com/posts/demogpt?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-demogpt" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=406106&theme=light" alt="DemoGPT - Auto&#0032;generative&#0032;AI&#0032;app&#0032;generator&#0032;with&#0032;the&#0032;power&#0032;of&#0032;Llama&#0032;2 | Product Hunt" height="20" /></a>
+<p align="center" dir="auto">
+<a href="https://twitter.com/demo_gpt" rel="nofollow"><img src="https://camo.githubusercontent.com/5538154a2b52f290315ef7d5cfde6a0d0bdb5bf7d599dd7c4ed09f222bf5738d/68747470733a2f2f696d672e736869656c64732e696f2f747769747465722f666f6c6c6f772f64656d6f5f6770743f7374796c653d736f6369616c" alt="推特关注" data-canonical-src="https://img.shields.io/twitter/follow/demo_gpt?style=social" style="max-width: 100%;"></a>
+<a href="https://demogpt.medium.com/" rel="nofollow"><img src="https://camo.githubusercontent.com/876172f3dfea608f4cbbf3fbc32a5b0a194c0fe4a1fc34272fb58f9d3c285d21/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d4d656469756d26636f6c6f723d303030303030266c6f676f3d4d656469756d266c6f676f436f6c6f723d464646464646266c6162656c3d" alt="演示GPT 介质" height="20" data-canonical-src="https://img.shields.io/static/v1?style=for-the-badge&amp;message=Medium&amp;color=000000&amp;logo=Medium&amp;logoColor=FFFFFF&amp;label=" style="max-width: 100%;"></a>
+<a href="https://www.producthunt.com/posts/demogpt?utm_source=badge-featured&amp;utm_medium=badge&amp;utm_souce=badge-demogpt" rel="nofollow"><img src="https://camo.githubusercontent.com/b4e925651f472ec205755cdb9fc9d856b67c10aa6573168e1e47155b89010300/68747470733a2f2f6170692e70726f6475637468756e742e636f6d2f776964676574732f656d6265642d696d6167652f76312f66656174757265642e7376673f706f73745f69643d343036313036267468656d653d6c69676874" alt="DemoGPT - 具有 Llama 2 功能的自动生成 AI 应用程序生成器 |产品搜索" height="20" data-canonical-src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=406106&amp;theme=light" style="max-width: 100%;"></a>
 </p>
-
-<p align="center">
-<a href="https://demogpt.streamlit.app"><img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg" alt="Streamlit application"></a>
-<a href="https://huggingface.co/spaces/melihunsal/demogpt"><img src="https://img.shields.io/badge/%F0%9F%A4%97-Spaces-yellow"></a>
+<p align="center" dir="auto">
+<a href="https://demogpt.streamlit.app" rel="nofollow"><img src="https://camo.githubusercontent.com/492dc2cc5c894cc5c245075202d323f30d70821f2106b40543be4a2cff98d347/68747470733a2f2f7374617469632e73747265616d6c69742e696f2f6261646765732f73747265616d6c69745f62616467655f626c61636b5f77686974652e737667" alt="精简应用程序" data-canonical-src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg" style="max-width: 100%;"></a>
+<a href="https://huggingface.co/spaces/melihunsal/demogpt" rel="nofollow"><img src="https://camo.githubusercontent.com/f19a9ad5e4fdd3df3369c5673f6726c266f6f5501dc1ddeb0ecb01befe783985/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2546302539462541342539372d5370616365732d79656c6c6f77" data-canonical-src="https://img.shields.io/badge/%F0%9F%A4%97-Spaces-yellow" style="max-width: 100%;"></a>
 </p>
-
-## ⭐ Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=melih-unsal/DemoGPT&type=Timeline)](https://star-history.com/#melih-unsal/DemoGPT&Timeline)
-
-⭐ Consider starring us if you're using DemoGPT so more people hear about us!
-
-## 🔥 Demo
-
-For quick demo, you can visit [our website](https://demogpt.io)
-
-![Tweet Generator](assets/web_blogger.gif)
-
-## 📚 Documentation
-
-See our documentation site [here](https://docs.demogpt.io/) for full how-to docs and guidelines
-
-⚡ With DemoGPT v1.3, API usage will be possible with the power of **Gorilla** within 2 weeks.
-After this release, you will be able use external APIs autonomously. ⚡
-
-## 📦 Using DemoGPT Package
-
-The DemoGPT package is now available and can be installed using pip. Run the following command to install the package:
-
-```sh
-pip install demogpt
-```
-
-To use the DemoGPT application, simply type "demogpt" into your terminal:
-
-```sh
-demogpt
-```
-
-
-## 📑 Table of Contents
-
-- [Introduction](#-introduction)
-- [Architecture](#%EF%B8%8F-architecture)
-- [Installation](#-installation)
-- [Usage](#-usage)
-- [To-Do](#to-do-)
-- [Contribute](#-contribute)
-- [Citations](#-citations) 
-- [License](#-license)
-
-## 📌 Introduction
-
-Welcome to DemoGPT, a revolutionary open-source initiative that is reshaping the landscape of Large Language Model (LLM) based application development.
-
-At the heart of DemoGPT, the capabilities of GPT-3.5-turbo come to life, driving the automatic generation of LangChain code. This process is enriched with a sophisticated architecture that translates user instructions into interactive Streamlit applications.
-
-### How DemoGPT Works
-
-1. **Planning:** DemoGPT starts by generating a plan from the user's instruction.
-2. **Task Creation:** It then creates specific tasks from the plan and instruction.
-3. **Code Snippet Generation:** These tasks are transferred into code snippets.
-4. **Final Code Assembly:** The code snippets are combined into a final code, resulting in an interactive Streamlit app.
-
-The LangChain code, once generated, is not a mere endpoint but a transformative stage. It evolves into a user-friendly Streamlit application, adding an interactive dimension to the logic crafted. This metamorphosis embodies DemoGPT's commitment to user engagement and experience.
-
-### Future Enhancements
-
-We are planning to add a publicly available database that will accelerate the generation process by retrieving similar examples during the refining process. This innovation will further streamline the development workflow, making it more efficient and responsive.
-
-### Model Flexibility
-
-DemoGPT is designed to be adaptable, capable of using any LLM model that meets specific performance criteria in terms of code generation. This flexibility ensures that DemoGPT remains at the forefront of technology, embracing new advancements in LLM.
-
-DemoGPT's iterative development process remains a cornerstone of its innovation. Each code segment undergoes individual testing, and the self-refining strategy ensures an efficient and error-minimized workflow. This fusion of meticulous testing and refinement is a testament to DemoGPT's pursuit of excellence.
-
-By transcending traditional coding paradigms, DemoGPT is pioneering a new era in LLM-based applications. It's not just about code generation; it's about crafting intelligent, interactive, and inclusive solutions.
-
-In summary, DemoGPT is more than a project; it's a visionary approach, pushing the boundaries of what's possible in LLM-based application development.
-
-In the next release, we are gonna integrate **Gorilla** to DemoGPT to enable DemoGPT to use external APIs autonomously. The future is bright, and the journey has just begun. Join us in this exciting adventure!
-
-
-## ⚙️ Architecture
-### DemoGPT Architecture
-![DemoGPT Architecture](assets/plan_based_pipeline.png?raw=true "DemoGPT Architecture")
-
-## 🔧 Installation
-
-### For the Package Version
-
-You can install the DemoGPT package by running the following command:
-
-```sh
-pip install demogpt
-```
-
-### For the Source Code Version
-
-
-1. Clone the repository:
-    ```sh
-    git clone https://github.com/melih-unsal/DemoGPT.git
-    ```
-2. Navigate into the project directory:
-    ```sh
-    cd DemoGPT
-    ```
-3. Install DemoGPT: 
-    ```sh
-    pip install .
-    ```
-
-## 🎮 Usage
-
-### 📦 For the Package Version
-
-Once the DemoGPT package is installed, you can use it by running the following command in your terminal:
-
-```sh
-demogpt
-```
-
-### 🐍 For the Python Interface
-
-You can now use DemoGPT as a library in your Python applications:
-
-```python
-from demogpt import DemoGPT
-agent = DemoGPT(model_name="gpt-3.5-turbo") # if OPENAI_API_KEY is not set in env variables, put it with openai_api_key argument
-instruction = "Your instruction here"
-title = "Your title here"
-code = ""
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">⭐ 明星历史</font></font></h2><a id="user-content--star-history" class="anchor" aria-label="永久链接：⭐ 明星历史" href="#-star-history"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a href="https://star-history.com/#melih-unsal/DemoGPT&amp;Timeline" rel="nofollow"><img src="https://camo.githubusercontent.com/2e44d9da75f732babc4900ba7499287314485c31a3c423a42d5f6bd27f5babfb/68747470733a2f2f6170692e737461722d686973746f72792e636f6d2f7376673f7265706f733d6d656c69682d756e73616c2f44656d6f47505426747970653d54696d656c696e65" alt="明星历史图" data-canonical-src="https://api.star-history.com/svg?repos=melih-unsal/DemoGPT&amp;type=Timeline" style="max-width: 100%;"></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">⭐ 如果您正在使用 DemoGPT，请考虑为我们加注星标，以便更多人了解我们！</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🔥 演示</font></font></h2><a id="user-content--demo" class="anchor" aria-label="永久链接：🔥 演示" href="#-demo"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如需快速演示，您可以访问</font></font><a href="https://demogpt.io" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们的网站</font></font></a></p>
+<p dir="auto"><animated-image data-catalyst=""><a target="_blank" rel="noopener noreferrer" href="/melih-unsal/DemoGPT/blob/main/assets/web_blogger.gif" data-target="animated-image.originalLink"><img src="/melih-unsal/DemoGPT/raw/main/assets/web_blogger.gif" alt="推文生成器" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage"></a>
+      <span class="AnimatedImagePlayer" data-target="animated-image.player" hidden="">
+        <a data-target="animated-image.replacedLink" class="AnimatedImagePlayer-images" href="https://github.com/melih-unsal/DemoGPT/blob/main/assets/web_blogger.gif" target="_blank">
+          
+        <span data-target="animated-image.imageContainer">
+            <img data-target="animated-image.replacedImage" alt="推文生成器" class="AnimatedImagePlayer-animatedImage" src="https://github.com/melih-unsal/DemoGPT/raw/main/assets/web_blogger.gif" style="display: block; opacity: 1;">
+          <canvas class="AnimatedImagePlayer-stillImage" aria-hidden="true" width="800" height="456"></canvas></span></a>
+        <button data-target="animated-image.imageButton" class="AnimatedImagePlayer-images" tabindex="-1" aria-label="Play Tweet Generator" hidden=""></button>
+        <span class="AnimatedImagePlayer-controls" data-target="animated-image.controls" hidden="">
+          <button data-target="animated-image.playButton" class="AnimatedImagePlayer-button" aria-label="Play Tweet Generator">
+            <svg aria-hidden="true" focusable="false" class="octicon icon-play" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M4 13.5427V2.45734C4 1.82607 4.69692 1.4435 5.2295 1.78241L13.9394 7.32507C14.4334 7.63943 14.4334 8.36057 13.9394 8.67493L5.2295 14.2176C4.69692 14.5565 4 14.1739 4 13.5427Z">
+            </path></svg>
+            <svg aria-hidden="true" focusable="false" class="octicon icon-pause" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+              <rect x="4" y="2" width="3" height="12" rx="1"></rect>
+              <rect x="9" y="2" width="3" height="12" rx="1"></rect>
+            </svg>
+          </button>
+          <a data-target="animated-image.openButton" aria-label="在新窗口中打开" class="AnimatedImagePlayer-button" href="https://github.com/melih-unsal/DemoGPT/blob/main/assets/web_blogger.gif" target="_blank">
+            <svg aria-hidden="true" class="octicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+              <path fill-rule="evenodd" d="M10.604 1h4.146a.25.25 0 01.25.25v4.146a.25.25 0 01-.427.177L13.03 4.03 9.28 7.78a.75.75 0 01-1.06-1.06l3.75-3.75-1.543-1.543A.25.25 0 0110.604 1zM3.75 2A1.75 1.75 0 002 3.75v8.5c0 .966.784 1.75 1.75 1.75h8.5A1.75 1.75 0 0014 12.25v-3.5a.75.75 0 00-1.5 0v3.5a.25.25 0 01-.25.25h-8.5a.25.25 0 01-.25-.25v-8.5a.25.25 0 01.25-.25h3.5a.75.75 0 000-1.5h-3.5z"></path>
+            </svg>
+          </a>
+        </span>
+      </span></animated-image></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">📚 文档</font></font></h2><a id="user-content--documentation" class="anchor" aria-label="永久链接：📚 文档" href="#-documentation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请参阅我们的文档网站</font></font><a href="https://docs.demogpt.io/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">获取完整的操作文档和指南</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">⚡ 通过 DemoGPT v1.3，借助Gorilla</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的强大功能，两周内</font><font style="vertical-align: inherit;">即可使用 API 。</font><font style="vertical-align: inherit;">在此版本之后，您将能够自主使用外部 API。 ⚡</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">📦 使用 DemoGPT 包</font></font></h2><a id="user-content--using-demogpt-package" class="anchor" aria-label="永久链接：📦 使用 DemoGPT 包" href="#-using-demogpt-package"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">DemoGPT 包现已可用，可以使用 pip 安装。运行以下命令来安装该软件包：</font></font></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>pip install demogpt</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="pip install demogpt" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要使用 DemoGPT 应用程序，只需在终端中输入“demogpt”：</font></font></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>demogpt</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="demogpt" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">📑 目录</font></font></h2><a id="user-content--table-of-contents" class="anchor" aria-label="永久链接：📑 目录" href="#-table-of-contents"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="#-introduction"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">介绍</font></font></a></li>
+<li><a href="#%EF%B8%8F-architecture"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">建筑学</font></font></a></li>
+<li><a href="#-installation"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装</font></font></a></li>
+<li><a href="#-usage"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用法</font></font></a></li>
+<li><a href="#to-do-"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">去做</font></font></a></li>
+<li><a href="#-contribute"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贡献</font></font></a></li>
+<li><a href="#-citations"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">引文</font></font></a></li>
+<li><a href="#-license"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">执照</font></font></a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">📌简介</font></font></h2><a id="user-content--introduction" class="anchor" aria-label="永久链接：📌简介" href="#-introduction"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">欢迎来到 DemoGPT，这是一项革命性的开源计划，正在重塑基于大型语言模型 (LLM) 的应用程序开发的格局。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">作为 DemoGPT 的核心，GPT-3.5-turbo 的功能得以实现，驱动 LangChain 代码的自动生成。这一过程通过复杂的架构得以丰富，该架构将用户指令转换为交互式 Streamlit 应用程序。</font></font></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">DemoGPT 的工作原理</font></font></h3><a id="user-content-how-demogpt-works" class="anchor" aria-label="永久链接：DemoGPT 的工作原理" href="#how-demogpt-works"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ol dir="auto">
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">规划：</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> DemoGPT 首先根据用户的指令生成计划。</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">任务创建：</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后根据计划和说明创建特定任务。</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">代码片段生成：</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这些任务被转换成代码片段。</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最终代码组装：</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">代码片段被组合成最终代码，形成交互式 Streamlit 应用程序。</font></font></li>
+</ol>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">LangChain代码一旦生成，就不仅仅是一个终点，而是一个变革阶段。它演变成一个用户友好的 Streamlit 应用程序，为精心设计的逻辑添加了交互维度。这种转变体现了 DemoGPT 对用户参与度和体验的承诺。</font></font></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">未来的增强功能</font></font></h3><a id="user-content-future-enhancements" class="anchor" aria-label="永久链接：未来的增强功能" href="#future-enhancements"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们计划添加一个公开可用的数据库，该数据库将通过在精炼过程中检索类似的示例来加速生成过程。这项创新将进一步简化开发工作流程，使其更加高效、响应迅速。</font></font></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">模型灵活性</font></font></h3><a id="user-content-model-flexibility" class="anchor" aria-label="永久链接：模型灵活性" href="#model-flexibility"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">DemoGPT 的设计具有很强的适应性，能够使用任何满足代码生成方面特定性能标准的 LLM 模型。这种灵活性确保 DemoGPT 始终处于技术前沿，拥抱法学硕士的新进步。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">DemoGPT 的迭代开发过程仍然是其创新的基石。每个代码段都经过单独的测试，自我完善的策略确保了高效且错误最小化的工作流程。这种一丝不苟的测试和改进的融合证明了 DemoGPT 对卓越的追求。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过超越传统的编码范式，DemoGPT 正在开创基于 LLM 的应用程序的新时代。这不仅仅涉及代码生成；还涉及代码生成。它是关于制定智能、交互式和包容性的解决方案。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">总而言之，DemoGPT 不仅仅是一个项目；它更是一个项目。这是一种富有远见的方法，突破了基于法学硕士的应用程序开发的可能性界限。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在下一个版本中，我们将把</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Gorilla</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">集成到 DemoGPT 中，使 DemoGPT 能够自主使用外部 API。未来是光明的，征程才刚刚开始。加入我们这个激动人心的冒险吧！</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">⚙️ 建筑</font></font></h2><a id="user-content-️-architecture" class="anchor" aria-label="永久链接：⚙️架构" href="#️-architecture"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">演示GPT架构</font></font></h3><a id="user-content-demogpt-architecture" class="anchor" aria-label="永久链接：DemoGPT 架构" href="#demogpt-architecture"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="/melih-unsal/DemoGPT/blob/main/assets/plan_based_pipeline.png?raw=true"><img src="/melih-unsal/DemoGPT/raw/main/assets/plan_based_pipeline.png?raw=true" alt="演示GPT架构" title="演示GPT架构" style="max-width: 100%;"></a></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🔧 安装</font></font></h2><a id="user-content--installation" class="anchor" aria-label="永久链接：🔧 安装" href="#-installation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于套装版本</font></font></h3><a id="user-content-for-the-package-version" class="anchor" aria-label="固定链接：对于软件包版本" href="#for-the-package-version"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以通过运行以下命令来安装 DemoGPT 包：</font></font></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>pip install demogpt</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="pip install demogpt" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于源代码版本</font></font></h3><a id="user-content-for-the-source-code-version" class="anchor" aria-label="固定链接：源代码版本" href="#for-the-source-code-version"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ol dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">克隆存储库：
+</font></font><div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>git clone https://github.com/melih-unsal/DemoGPT.git</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="git clone https://github.com/melih-unsal/DemoGPT.git" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+</li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">导航到项目目录：
+</font></font><div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-c1">cd</span> DemoGPT</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="cd DemoGPT" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+</li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装演示GPT：
+</font></font><div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>pip install <span class="pl-c1">.</span></pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="pip install ." tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+</li>
+</ol>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🎮 用法</font></font></h2><a id="user-content--usage" class="anchor" aria-label="永久链接：🎮 用法" href="#-usage"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">📦 对于套装版本</font></font></h3><a id="user-content--for-the-package-version" class="anchor" aria-label="固定链接：📦 对于套餐版本" href="#-for-the-package-version"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装 DemoGPT 包后，您可以通过在终端中运行以下命令来使用它：</font></font></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>demogpt</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="demogpt" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🐍 对于 Python 接口</font></font></h3><a id="user-content--for-the-python-interface" class="anchor" aria-label="永久链接：🐍 对于 Python 接口" href="#-for-the-python-interface"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您现在可以在 Python 应用程序中使用 DemoGPT 作为库：</font></font></p>
+<div class="highlight highlight-source-python notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-k">from</span> <span class="pl-s1">demogpt</span> <span class="pl-k">import</span> <span class="pl-v">DemoGPT</span>
+<span class="pl-s1">agent</span> <span class="pl-c1">=</span> <span class="pl-v">DemoGPT</span>(<span class="pl-s1">model_name</span><span class="pl-c1">=</span><span class="pl-s">"gpt-3.5-turbo"</span>) <span class="pl-c"># if OPENAI_API_KEY is not set in env variables, put it with openai_api_key argument</span>
+<span class="pl-s1">instruction</span> <span class="pl-c1">=</span> <span class="pl-s">"Your instruction here"</span>
+<span class="pl-s1">title</span> <span class="pl-c1">=</span> <span class="pl-s">"Your title here"</span>
+<span class="pl-s1">code</span> <span class="pl-c1">=</span> <span class="pl-s">""</span>
+<span class="pl-k">for</span> <span class="pl-s1">phase</span> <span class="pl-c1">in</span> <span class="pl-en">agent</span>(<span class="pl-s1">instruction</span><span class="pl-c1">=</span><span class="pl-s1">instruction</span>, <span class="pl-s1">title</span><span class="pl-c1">=</span><span class="pl-s1">title</span>):
+    <span class="pl-en">print</span>(<span class="pl-s1">phase</span>) <span class="pl-c"># this will display the resulting json for each generation stage</span>
+    <span class="pl-k">if</span> <span class="pl-s1">phase</span>[<span class="pl-s">"done"</span>]:
+        <span class="pl-s1">code</span> <span class="pl-c1">=</span> <span class="pl-s1">phase</span>[<span class="pl-s">"code"</span>] <span class="pl-c"># final code</span>
+<span class="pl-en">print</span>(<span class="pl-s1">code</span>)</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="from demogpt import DemoGPT
+agent = DemoGPT(model_name=&quot;gpt-3.5-turbo&quot;) # if OPENAI_API_KEY is not set in env variables, put it with openai_api_key argument
+instruction = &quot;Your instruction here&quot;
+title = &quot;Your title here&quot;
+code = &quot;&quot;
 for phase in agent(instruction=instruction, title=title):
     print(phase) # this will display the resulting json for each generation stage
-    if phase["done"]:
-        code = phase["code"] # final code
-print(code)
-```
-
-Example Output (truncated):
-
-```bash
-# phases
+    if phase[&quot;done&quot;]:
+        code = phase[&quot;code&quot;] # final code
+print(code)" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">示例输出（截断）：</font></font></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-c"><span class="pl-c">#</span> phases</span>
+{<span class="pl-s"><span class="pl-pds">'</span>stage<span class="pl-pds">'</span></span>: <span class="pl-s"><span class="pl-pds">'</span>draft<span class="pl-pds">'</span></span>, <span class="pl-s"><span class="pl-pds">'</span>completed<span class="pl-pds">'</span></span>: False, <span class="pl-s"><span class="pl-pds">'</span>percentage<span class="pl-pds">'</span></span>: 60, ...}
+{<span class="pl-s"><span class="pl-pds">'</span>stage<span class="pl-pds">'</span></span>: <span class="pl-s"><span class="pl-pds">'</span>draft<span class="pl-pds">'</span></span>, <span class="pl-s"><span class="pl-pds">'</span>completed<span class="pl-pds">'</span></span>: False, <span class="pl-s"><span class="pl-pds">'</span>percentage<span class="pl-pds">'</span></span>: 64, <span class="pl-s"><span class="pl-pds">'</span>code<span class="pl-pds">'</span></span>: <span class="pl-s"><span class="pl-pds">'</span>#Get the source language ...<span class="pl-pds">'</span></span>}
+...
+{<span class="pl-s"><span class="pl-pds">'</span>stage<span class="pl-pds">'</span></span>: <span class="pl-s"><span class="pl-pds">'</span>final<span class="pl-pds">'</span></span>, <span class="pl-s"><span class="pl-pds">'</span>completed<span class="pl-pds">'</span></span>: True, <span class="pl-s"><span class="pl-pds">'</span>percentage<span class="pl-pds">'</span></span>: 100, ... , <span class="pl-s"><span class="pl-pds">'</span>code<span class="pl-pds">'</span></span>: <span class="pl-s"><span class="pl-pds">'</span>import streamlit as st\n...<span class="pl-pds">'</span></span>}</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="# phases
 {'stage': 'draft', 'completed': False, 'percentage': 60, ...}
 {'stage': 'draft', 'completed': False, 'percentage': 64, 'code': '#Get the source language ...'}
 ...
-{'stage': 'final', 'completed': True, 'percentage': 100, ... , 'code': 'import streamlit as st\n...'}
-```
-
-```python
-# Code
+{'stage': 'final', 'completed': True, 'percentage': 100, ... , 'code': 'import streamlit as st\n...'}" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<div class="highlight highlight-source-python notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-c"># Code</span>
+<span class="pl-k">import</span> <span class="pl-s1">streamlit</span> <span class="pl-k">as</span> <span class="pl-s1">st</span>
+<span class="pl-k">from</span> <span class="pl-s1">langchain</span>.<span class="pl-s1">chains</span> <span class="pl-k">import</span> <span class="pl-v">LLMChain</span>
+<span class="pl-k">from</span> <span class="pl-s1">langchain</span>.<span class="pl-s1">chat_models</span> <span class="pl-k">import</span> <span class="pl-v">ChatOpenAI</span>
+<span class="pl-k">from</span> <span class="pl-s1">langchain</span>.<span class="pl-s1">prompts</span>.<span class="pl-s1">chat</span> <span class="pl-k">import</span> (<span class="pl-v">ChatPromptTemplate</span>,
+                                    <span class="pl-v">HumanMessagePromptTemplate</span>,
+                                    <span class="pl-v">SystemMessagePromptTemplate</span>)
+...</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="# Code
 import streamlit as st
 from langchain.chains import LLMChain
 from langchain.chat_models import ChatOpenAI
 from langchain.prompts.chat import (ChatPromptTemplate,
                                     HumanMessagePromptTemplate,
                                     SystemMessagePromptTemplate)
-...
-```
-
-### 🌐 For the Source Code Version
-
-If you have cloned the repository and wish to run the source code version, you can use DemoGPT by running the following command:
-
-```sh
-streamlit run demogpt/app.py
-```
-
-## To-Do 📝
-- [x] Implement new DemoGPT pipeline including plan generation, task creation, code snippet generation, and final code assembly.
-- [x] Add feature to allow users to select models.
-- [x] Define useful LangChain tasks
-- [x] Publish release with the new pipeline without refinement
-- [ ] Implement remaining LangChain tasks
-- [ ] Implement self-refining strategy for model response refinement.
-- [ ] Integrate 🦍 Gorilla model for API calls.
-- [ ] Add Rapid API for expanding available API calls. 
-- [ ] Add 🦙 Llama2 integration
-- [ ] Implement publicly available database to accelerate the generation process by retrieving similar examples during the refining process.
-- [ ] Add all successfully generated steps to a DB to eliminate redundant refinement.
-
-## 🤝 Contribute
-
-Contributions to the DemoGPT project are welcomed! Whether you're fixing bugs, improving the documentation, or proposing new features, your efforts are highly appreciated. Please check the open issues before starting any work.
-
-> Please read [`CONTRIBUTING`](CONTRIBUTING.md) for details on our [`CODE OF CONDUCT`](CODE_OF_CONDUCT.md), and the process for submitting pull requests to us.
-
-## 📄 Citations
-
-DemoGPT has been referenced in various research papers for its innovative approach to app creation using autonomous AI agents. Below is a list of papers that have cited DemoGPT:
-
-- Lei Wang, Chen Ma , Xueyang Feng , Zeyu Zhang, Hao Yang, Jingsen Zhang, Zhiyuan Chen, Jiakai Tang, Xu Chen, Yankai Lin, Wayne Xin , Zhao, Zhewei Wei, Ji-Rong Wen, "A Survey on Large Language Model based Autonomous Agents", 2023. [Link to paper](https://arxiv.org/pdf/2308.11432.pdf)
-- Yuan Li, Yixuan Zhang, Lichao Sun, "METAAGENTS: SIMULATING INTERACTIONS OF HUMAN BEHAVIORS FOR LLM-BASED TASK-ORIENTED COORDINATION VIA COLLABORATIVE GENERATIVE AGENTS" Journal/Conference, 2023. [Link to paper](https://arxiv.org/pdf/2310.06500.pdf)
-- Yuheng Cheng, Ceyao Zhang, Zhengwen Zhang, Xiangrui Meng, Sirui Hong, Wenhao Li, Zihao Wang, Zekai Wang, Feng Yin, Junhua Zhao, Xiuqiang He, "EXPLORING LARGE LANGUAGE MODEL BASED INTELLIGENT AGENTS: DEFINITIONS, METHODS, AND PROSPECTS", 2024. [Link to paper](https://arxiv.org/pdf/2401.03428.pdf)
-
-This acknowledgment from the academic community highlights the potential and utility of DemoGPT in advancing the field of AI-driven development tools.
-
-
-## 📜 License
-
-DemoGPT is an open-source project licensed under [MIT License](LICENSE).
-
----
-
-For any issues, questions, or comments, please feel free to contact us or open an issue. We appreciate your feedback to make DemoGPT better.
+..." tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🌐 对于源代码版本</font></font></h3><a id="user-content--for-the-source-code-version" class="anchor" aria-label="永久链接：🌐 对于源代码版本" href="#-for-the-source-code-version"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您已克隆存储库并希望运行源代码版本，则可以通过运行以下命令来使用 DemoGPT：</font></font></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>streamlit run demogpt/app.py</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="streamlit run demogpt/app.py" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">待办事项📝</font></font></h2><a id="user-content-to-do-" class="anchor" aria-label="永久链接：待办事项📝" href="#to-do-"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">实施新的 DemoGPT 管道，包括计划生成、任务创建、代码片段生成和最终代码组装。</font></font></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">添加功能以允许用户选择型号。</font></font></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">定义有用的 LangChain 任务</font></font></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用新管道发布版本而不进行细化</font></font></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">执行剩余的LangChain任务</font></font></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">实施模型响应细化的自我细化策略。</font></font></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">集成 🦍 Gorilla 模型以进行 API 调用。</font></font></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">添加快速 API 以扩展可用的 API 调用。</font></font></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">添加 🦙 Llama2 集成</font></font></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">实施公开可用的数据库，通过在精炼过程中检索类似的示例来加速生成过程。</font></font></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将所有成功生成的步骤添加到数据库中以消除冗余细化。</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🤝 贡献</font></font></h2><a id="user-content--contribute" class="anchor" aria-label="永久链接：🤝 贡献" href="#-contribute"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">欢迎为 DemoGPT 项目做出贡献！无论您是修复错误、改进文档还是提出新功能，我们都会高度赞赏您的努力。在开始任何工作之前，请检查未解决的问题。</font></font></p>
+<blockquote>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请阅读</font></font><a href="/melih-unsal/DemoGPT/blob/main/CONTRIBUTING.md"><code>CONTRIBUTING</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关我们的详细信息</font></font><a href="/melih-unsal/DemoGPT/blob/main/CODE_OF_CONDUCT.md"><code>CODE OF CONDUCT</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以及向我们提交拉取请求的流程。</font></font></p>
+</blockquote>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">📄 引文</font></font></h2><a id="user-content--citations" class="anchor" aria-label="永久链接：📄 引文" href="#-citations"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">DemoGPT 因其使用自主 AI 代理创建应用程序的创新方法而被各种研究论文引用。以下是引用 DemoGPT 的论文列表：</font></font></p>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">王雷、马陈、冯雪阳、张泽宇、杨浩、张景森、陈志远、唐家凯、陈旭、林彦凯、辛伟、赵、魏哲伟、温继荣，《大语言模型综述》基于自治代理”，2023。</font></font><a href="https://arxiv.org/pdf/2308.11432.pdf" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文链接</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Yuan Li, Yixuan Zhang, Lichao Sun，“METAGENTS：通过协作生成代理模拟人类行为的交互，实现基于 LLM 的任务导向协调”期刊/会议，2023 年。</font></font><a href="https://arxiv.org/pdf/2310.06500.pdf" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文链接</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">成宇恒、张策耀、张正文、孟祥瑞、洪思瑞、李文豪、王子豪、王泽凯、尹峰、赵俊华、何秀强，“探索基于大语言模型的智能体：定义、方法和前景”， 2024.</font></font><a href="https://arxiv.org/pdf/2401.03428.pdf" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文链接</font></font></a></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">学术界的认可凸显了 DemoGPT 在推进人工智能驱动的开发工具领域的潜力和实用性。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">📜 许可证</font></font></h2><a id="user-content--license" class="anchor" aria-label="永久链接：📜 许可证" href="#-license"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="/melih-unsal/DemoGPT/blob/main/LICENSE"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">DemoGPT 是一个根据MIT License</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">授权的开源项目</font><font style="vertical-align: inherit;">。</font></font></p>
+<hr>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如有任何问题、疑问或意见，请随时联系我们或提出问题。我们感谢您的反馈，让 DemoGPT 变得更好。</font></font></p>
+</article></div>
